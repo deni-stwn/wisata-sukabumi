@@ -1,0 +1,78 @@
+* {
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+body  {
+    margin: 0;
+    padding: 0;
+}
+main {
+    height: 100vh;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.text-header {
+    font-size: 50px;
+}
+
+svg {
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.instagram a div {
+    transition: all .3s ease-in;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-left: -16px;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+ul li a div:hover{
+    box-shadow: 0px 3px 7px 0px #fff;
+    margin-right: 16px;
+    transform:translateY(-7px);
+    transition: all .3s ease-in-out;
+}
+
+.twitter a div {
+    transition: all .3s ease-in;
+    border-radius: 10px;
+    margin-left: -18px;
+    vertical-align: middle;
+    background: #00acee;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+.github a div {
+    transition: all .3s ease-in;
+    border-radius: 10px;
+    margin-left: -18px;
+    vertical-align: middle;
+    background: black;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+/* .github a div :hover {
+    box-shadow: 0px 3px 10px #fff;
+} */
+
+.linkedin a div {
+    transition: all .3s ease-in;
+    border-radius: 10px;
+    margin-left: -18px;
+    vertical-align: middle;
+    background: #33c6ff;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+.text-link {
+    font-size: 24px;
+}
+
