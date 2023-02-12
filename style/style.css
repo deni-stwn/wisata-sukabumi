@@ -27,7 +27,7 @@ svg {
 }
 
 .instagram a div {
-    transition: all .3s ease-in;
+    transition: all .2s ease-in;
     border-radius: 10px;
     vertical-align: middle;
     margin-left: -16px;
@@ -39,11 +39,11 @@ ul li a div:hover{
     box-shadow: 0px 3px 7px 0px #fff;
     margin-right: 16px;
     transform:translateY(-7px);
-    transition: all .3s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
 .twitter a div {
-    transition: all .3s ease-in;
+    transition: all .2s ease-in;
     border-radius: 10px;
     margin-left: -18px;
     vertical-align: middle;
@@ -52,7 +52,7 @@ ul li a div:hover{
 }
 
 .github a div {
-    transition: all .3s ease-in;
+    transition: all .2s ease-in;
     border-radius: 10px;
     margin-left: -18px;
     vertical-align: middle;
@@ -64,7 +64,7 @@ ul li a div:hover{
 } */
 
 .linkedin a div {
-    transition: all .3s ease-in;
+    transition: all .2s ease-in;
     border-radius: 10px;
     margin-left: -18px;
     vertical-align: middle;
