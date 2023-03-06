@@ -4,8 +4,8 @@ LATIHAN GIT WPU
 2. HTML
 3. CSS
 4. JAVASCRIPT
-    framework js :
-      -ANGULAR
+    framework js : 
+      -VUE
       -REACT
 5. typescript
 
