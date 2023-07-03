@@ -1,4 +1,4 @@
-* {
+/* * {
     font-family: 'Indie Flower', cursive;
     
 }
@@ -58,12 +58,12 @@ ul li a div:hover{
     vertical-align: middle;
     background: black;
     box-shadow: 0px 3px 10px rgba(0,0,0,.25);
-}
+} */
 /* .github a div :hover {
     box-shadow: 0px 3px 10px #fff;
 } */
 
-.linkedin a div {
+/* .linkedin a div {
     transition: all .2s ease-in;
     border-radius: 10px;
     margin-left: -18px;
@@ -83,5 +83,5 @@ ul li a div:hover{
     font-size: 20px;
     right: 25%;
     left:  25%;
-}
+} */
 
