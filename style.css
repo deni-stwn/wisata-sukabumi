@@ -222,6 +222,9 @@ span {
     flex-direction: column;
     align-items: center;
   }
+  #map{
+    height: 350px;
+  }
   .button-map,
   .button-pdf {
     width: 80%;
@@ -239,6 +242,9 @@ span {
   .map,
   .card {
     margin: 20px;
+  }
+  .card {
+    margin-top: 80px;
   }
   .card .con div img,
 .card .con-2 div img {
