@@ -15,7 +15,7 @@ div {
 }
 
 .hero {
-  background-image: url("assets/neom-gOqBe7ropxM-unsplash.jpg");
+  background-image: url("assets/neom-gOqBe7ropxM-unsplash 1.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -64,9 +64,29 @@ div {
   font-weight: 500;
 }
 
+/* gallery */
+.gallery{
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 210px;
+}
+
+.title-gallery{
+  margin: 80px 0px;
+  font-size: 36px;
+  text-align: center;
+}
+
 /* map */
 .map,
-.card {
+.card,
+.galleryList {
   margin: 60px 120px;
 }
 
@@ -157,7 +177,8 @@ span {
     width: 50%;
   }
   .map,
-  .card {
+  .card,
+  .galleryList {
     margin: 60px 120px;
   }
   .card .con div img,
@@ -182,6 +203,23 @@ span {
 
 /* Styles for tablet */
 @media (max-width: 991px) {
+  .gallery{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .gallery img {
+    width: 132px;
+  }
+  
+  .title-gallery{
+    margin: 80px 0px;
+    font-size: 36px;
+    text-align: center;
+  }
   .button {
     margin: 30px 0;
   }
@@ -194,7 +232,8 @@ span {
     font-size: 26px;
   }
   .map,
-  .card {
+  .card,
+  .galleryList {
     margin: 40px 60px;
   }
   .card .con div img,
@@ -218,6 +257,25 @@ span {
 
 /* Styles for mobile */
 @media (max-width: 576px) {
+  .gallery{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .gallery img {
+    width: 160px;
+  }
+  
+  .title-gallery{
+    margin: 80px 0px;
+    font-size: 28px;
+    text-align: center;
+  }
+
   .button {
     flex-direction: column;
     align-items: center;
@@ -240,7 +298,8 @@ span {
     font-size: 18px;
   }
   .map,
-  .card {
+  .card,
+  .galleryList {
     margin: 20px;
   }
   .card {
