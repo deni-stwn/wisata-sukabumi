@@ -1,3 +1,13 @@
+document.getElementById("pdfButton").addEventListener("click", function() {
+  var pdfUrl = "pdf/LAPORAN UAS SISTEM INFORMASI GEOGRAFIS _ KELOMPOK 1 _ TI21B.pdf";
+  window.open(pdfUrl, "_blank");
+  // var embedElement = document.getElementById("pdfEmbed");
+  
+  // embedElement.setAttribute("src", pdfUrl);
+  // embedElement.style.display = "block";
+});
+
+
 var map = L.map('map').setView([-7.1122750799969845, 106.75116023911009], 9);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
